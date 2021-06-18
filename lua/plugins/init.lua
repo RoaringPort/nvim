@@ -19,4 +19,11 @@ return require('packer').startup(function()
 
   -- complete the [],(),{},"",''
   use 'jiangmiao/auto-pairs'
+
+  -- Coc
+  use {
+    'neoclide/coc.nvim', 
+    branch = 'master', 
+    run = 'yarn install --frozen-lockfile'
+  }
 end)
