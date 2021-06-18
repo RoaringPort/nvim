@@ -19,3 +19,4 @@ require 'statusbar'
 
 -- vim scripts
 vim.cmd('so ~/.config/nvim/scripts/onedark_syntax.vim')
+vim.cmd('so	~/.config/nvim/scripts/coc_completion.vim')
