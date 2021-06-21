@@ -26,4 +26,10 @@ return require('packer').startup(function()
     branch = 'master', 
     run = 'yarn install --frozen-lockfile'
   }
+
+  -- telescope
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+  }
 end)
